@@ -1,0 +1,28 @@
+create-todo:  # 23/2/2026, 15:17:19:400
+  request:
+    url: http://localhost:5000/api/todos/
+    method: POST
+    headers:
+      Accept: application/json
+      Content-Type: application/json
+    body: |-
+      {
+        "title": "Complete Javascript Notes"
+      }
+  response:  # 87 ms
+    status:
+      code: 201
+      message: Created
+    headers:
+      connection: close
+      content-length: '74'
+      content-type: application/json; charset=utf-8
+      date: Mon, 23 Feb 2026 09:47:19 GMT
+      etag: W/"4a-FWOG6Mk6hfQFXhbILccyQS5ZPqI"
+      x-powered-by: Express
+    body: |-
+      {
+        "id": 1771840039509,
+        "title": "Complete Javascript Notes",
+        "completed": false
+      }

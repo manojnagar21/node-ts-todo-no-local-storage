@@ -1,0 +1,4 @@
+uptdate-todos:
+  url: http://localhost:5000/api/todos/1771840039509
+  method: PATCH
+  headers: {}

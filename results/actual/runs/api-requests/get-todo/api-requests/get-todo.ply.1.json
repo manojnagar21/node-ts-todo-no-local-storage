@@ -1,0 +1,37 @@
+[
+  {
+    "name": "get-todo",
+    "test": "get-todo",
+    "type": "request",
+    "end": "2026-02-23T10:21:33.081Z",
+    "result": {
+      "status": "Submitted",
+      "message": "Request 'get-todo' SUBMITTED"
+    },
+    "request": {
+      "name": "get-todo",
+      "type": "request",
+      "url": "http://localhost:5000/api/todos/17718400395091",
+      "method": "GET",
+      "headers": {},
+      "submitted": "2026-02-23T10:21:33.007Z"
+    },
+    "response": {
+      "runId": "ae38c1e8517c",
+      "status": {
+        "code": 404,
+        "message": "Not Found"
+      },
+      "headers": {
+        "connection": "close",
+        "content-length": "28",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 23 Feb 2026 10:21:33 GMT",
+        "etag": "W/\"1c-pmY0uDQDCiyWoTTxj0e4v2uzwH4\"",
+        "x-powered-by": "Express"
+      },
+      "body": "{\n  \"msg\": \"Task not available\"\n}",
+      "time": 37
+    }
+  }
+]
