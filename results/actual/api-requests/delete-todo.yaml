@@ -1,0 +1,20 @@
+delete-todo:  # 25/2/2026, 11:42:39:287
+  request:
+    url: http://localhost:5000/api/todos/1771838859458
+    method: DELETE
+    headers: {}
+  response:  # 42 ms
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      connection: close
+      content-length: '28'
+      content-type: application/json; charset=utf-8
+      date: Wed, 25 Feb 2026 06:12:39 GMT
+      etag: W/"1c-pmY0uDQDCiyWoTTxj0e4v2uzwH4"
+      x-powered-by: Express
+    body: |-
+      {
+        "msg": "Task not available"
+      }

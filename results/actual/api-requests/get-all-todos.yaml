@@ -1,37 +1,21 @@
-get-all-todos:  # 23/2/2026, 15:30:51:072
+get-all-todos:  # 25/2/2026, 11:42:23:656
   request:
-    url: http://localhost:5000/api/todos
+    url: http://localhost:5000/api/todos/
     method: GET
     headers: {}
-  response:  # 43 ms
+  response:  # 50 ms
     status:
       code: 200
       message: OK
     headers:
       connection: close
-      content-length: '697'
+      content-length: '541'
       content-type: application/json; charset=utf-8
-      date: Mon, 23 Feb 2026 10:00:51 GMT
-      etag: W/"2b9-1fG9N/+UqTELSPKBHPfLm+hBOz0"
+      date: Wed, 25 Feb 2026 06:12:23 GMT
+      etag: W/"21d-+myd2OM1d1lGu+PfCDtUDEWEROs"
       x-powered-by: Express
     body: |-
       [
-        {
-          "id": 1771838845164,
-          "completed": false
-        },
-        {
-          "id": 1771838851228,
-          "completed": false
-        },
-        {
-          "id": 1771838855558,
-          "completed": false
-        },
-        {
-          "id": 1771838857757,
-          "completed": false
-        },
         {
           "id": 1771838859458,
           "completed": false
